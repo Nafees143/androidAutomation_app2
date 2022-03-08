@@ -13,6 +13,9 @@ public class Page_2 {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	@AndroidFindBy(xpath = "//*[@text = 'Drag and Drop']")
-	public WebElement dragNdrop;
+	public WebElement dNdclick;
+	
+	@AndroidFindBy(id="io.appium.android.apis:id/drag_dot_3")
+	public WebElement drag_dot;
 
 }
